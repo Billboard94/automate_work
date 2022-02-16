@@ -1,4 +1,6 @@
 import subprocess, webbrowser, os, psutil
+from applescript import tell
+from subprocess import call
 
 # Writing routine for macOS
 def writing_macOS():
@@ -39,25 +41,27 @@ def coding_macOS():
 
 # Working routine for macOS
 def working_macOS():
-    # open Outlook
-    subprocess.run(['open', '/Applications/Microsoft\Outlook.app'], check = True)
-    # open Safari with Google, Matlab
-    webbrowser.open('https://google.de')
-    webbrowser.open('https://matlab.com')
-    # open Obsidian
-    subprocess.run(['open', '/Applications/Obsidian.app'], check = True)
-    # open Matlab
-    subprocess.run(['open', '/Applications/MATLAB_R2021b.app'], check = True)
+    # open Outlook debug!
+    # subprocess.run(['open', '/Applications/Microsoft\Outlook.app'], check = True)
+    # open Safari with Google, Matlab works
+    # webbrowser.open('https://google.de')
+    # webbrowser.open('https://matlab.com')
+    # open Obsidian works!
+    # subprocess.run(['open', '/Applications/Obsidian.app'], check = True)
+    # open Matlab works!
+    # subprocess.run(['open', '/Applications/MATLAB_R2021b.app'], check = True)
     # open Finder where the Matlab-Script is at and get the latest version from GitLab
-    os.system('cd Documents/MATLAB/LVN_DG')
-    os.system('git pull origin/master')
+    call(["echo", "hello", "world"])
+    call(["cd"])
+    call("cd", "Documents/MATLAB/DG_Stationaer")
+    tell.app('Terminal', 'git pull origin/master')
     # Check if Matlab has been closed
     matlab_closed = "MATLAB_R2021b.app" in (i.name() for i in psutil.process_iter())
-    if matlab_closed == true:
-        os.system('git add -A')
-        commit_msg = input('please enter a commit message: ')
-        os.system('git commit -m "' + commit_msg + '"')
-        os.system('git push')
+    # if matlab_closed == true:
+      #  os.system('git add -A')
+      #  commit_msg = input('please enter a commit message: ')
+      #  os.system('git commit -m "' + commit_msg + '"')
+      #  os.system('git push')
 
 # Working routine for Windows
 # def working_Windows():
