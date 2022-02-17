@@ -53,10 +53,10 @@ def working_macOS():
     # open Finder where the Matlab-Script is at and get the latest version from GitLab
     call(["echo", "hello", "world"])
     call(["cd"])
-    call("cd", "Documents/MATLAB/DG_Stationaer")
+    call("cd Documents/MATLAB/DG_Stationaer")
     tell.app('Terminal', 'git pull origin/master')
     # Check if Matlab has been closed
-    matlab_closed = "MATLAB_R2021b.app" in (i.name() for i in psutil.process_iter())
+    # matlab_closed = "MATLAB_R2021b.app" in (i.name() for i in psutil.process_iter())
     # if matlab_closed == true:
       #  os.system('git add -A')
       #  commit_msg = input('please enter a commit message: ')
