@@ -17,9 +17,9 @@ def writing_Windows():
     os.system('open', 'C:/Programme/Outlook/Outlook.exe')   # Path only obligatory
 
 # Writing routine for Linux
-#def writing_Linux():
-    # open iTunes
-    # open Joplin
+def writing_Linux():
+    subprocess.run(['/snap/bin/mailspring'], check = True)
+    subprocess.run(['var/lib/flatpak/app/org.gnome.gitlab.somas.Apostrophe'], check = True)
     # open email
     # open Firefox with Google, Grammarly, Medium
 
