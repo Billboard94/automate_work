@@ -18,10 +18,13 @@ def writing_Windows():
 
 # Writing routine for Linux
 def writing_Linux():
-    subprocess.run(['/snap/bin/mailspring'], check = True)
-    subprocess.run(['var/lib/flatpak/app/org.gnome.gitlab.somas.Apostrophe'], check = True)
-    # open email
-    # open Firefox with Google, Grammarly, Medium
+    subprocess.call(['code', 'mailspring'])
+    # open the writing software
+    subprocess.run('/var/lib/flatpak/app/org.gnome.gitlab.somas.Apostrophe')
+    # open Chrome with Google, Grammarly, Medium
+    webbrowser.open('https://google.de') 
+    webbrowser.open('https://app.grammarly.com')
+    webbrowser.open('https://medium.com')
 
 # Coding routine for macOS
 def coding_macOS():
@@ -29,7 +32,7 @@ def coding_macOS():
     subprocess.run(['open', '/Applications/Visual\Studio\Code.app'], check = True)
     subprocess.run(['open', '/System/Applications/Music.app'], check = True)
     webbrowser.open('https://github.com')
-    webbrowser.open('https://google.de')
+    webbrowser.open('https://google.de')        
     webbrowser.open('https://stackoverflow.com')
     subprocess.run(['open', '/System/Applications/Utilities/Terminal.app'], check = True)
 
