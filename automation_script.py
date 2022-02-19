@@ -18,7 +18,8 @@ def writing_Windows():
 
 # Writing routine for Linux
 def writing_Linux():
-    subprocess.call(['code', 'mailspring'])
+    subprocess.run(['flatpak', 'run', 'org.gnome.gitlab.somas.Apostrophe'])
+    subprocess.run(['mailspring'])
     # open the writing software
     subprocess.run('/var/lib/flatpak/app/org.gnome.gitlab.somas.Apostrophe')
     # open Chrome with Google, Grammarly, Medium
