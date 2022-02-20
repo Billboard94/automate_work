@@ -19,15 +19,15 @@ def writing_Windows():
 # Writing routine for Linux
 def writing_Linux():
     # open itunes
-    subprocess.run(['apple-music-for-linux'])
+    subprocess.run(['apple-music-for-linux', '&'])
     # open writing app
-    subprocess.run(['nohup', 'flatpak', 'run', 'org.gnome.gitlab.somas.Apostrophe', '&'])
+    # subprocess.run(['nohup', 'flatpak', 'run', 'org.gnome.gitlab.somas.Apostrophe', '&'])
     # open mail client
-    subprocess.run(['nohup', 'mailspring', '&'])
+    # subprocess.run(['nohup', 'mailspring', '&'])
     # open Chrome with Google, Grammarly, Medium
-    webbrowser.open('https://google.de') 
-    webbrowser.open('https://app.grammarly.com')
-    webbrowser.open('https://medium.com')
+    # webbrowser.open('https://google.de') 
+    # webbrowser.open('https://app.grammarly.com')
+    # webbrowser.open('https://medium.com')
 
 # Coding routine for macOS
 def coding_macOS():

@@ -1,0 +1,92 @@
+Gtk-Message: 13:42:01.024: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
+Gtk-Message: 13:42:12.678: Failed to load module "xapp-gtk3-module"
+Running database migrations
+App load time: 351ms
+
+{"error":null}
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(node:5445) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:5451) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+Gtk-Message: 13:46:16.600: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
+Gtk-Message: 13:46:58.493: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/disown”: No such file or directory (1)
+Gtk-Message: 13:47:02.295: Failed to load module "xapp-gtk3-module"
+Running database migrations
+App load time: 351ms
+
+{"error":null}
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(node:6634) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:6628) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+Gtk-Message: 13:56:31.086: Failed to load module "xapp-gtk3-module"
+Do you want to "write", "code", or "work"?: Traceback (most recent call last):
+  File "automation_script.py", line 79, in <module>
+    work_type = input('Do you want to "write", "code", or "work"?: ')
+OSError: [Errno 9] Bad file descriptor
+Gtk-Message: 14:32:00.094: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
+Gtk-Message: 14:32:05.787: Failed to load module "xapp-gtk3-module"
+Running database migrations
+App load time: 370ms
+
+{"error":null}
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(node:11543) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:11549) Electron: Loading non-context-aware native module in renderer: '/snap/mailspring/506/usr/share/mailspring/resources/app.asar.unpacked/node_modules/@felixrieseberg/spellchecker/build/Release/spellchecker.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+Gtk-Message: 19:16:21.789: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
+Gtk-Message: 19:17:38.797: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
+Gtk-Message: 19:19:48.521: Failed to load module "xapp-gtk3-module"
+Traceback (most recent call last):
+  File "/app/lib/python3.8/site-packages/apostrophe/application.py", line 233, in do_open
+    self.window.load_file(files[0])
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 455, in load_file
+    self.current.gfile = file
+  File "/app/lib/python3.8/site-packages/apostrophe/main_window.py", line 705, in gfile
+    file_info = file.query_info("standard",
+gi.repository.GLib.Error: g-io-error-quark: Error when getting information for file “/home/valmir/Documents/Coding/automate_work/&”: No such file or directory (1)
